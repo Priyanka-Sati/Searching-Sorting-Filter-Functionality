@@ -1,0 +1,64 @@
+.allProducts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.menuDiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+}
+
+.searchDiv{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.searchDiv > button{
+    width: 70px;
+    border-radius: 0 20px 20px 0;
+    border: 1px solid black;
+    border-left: none;
+    background-color: rgb(150, 147, 147);
+    color: white;
+    cursor: pointer;
+}
+
+.searchDiv > input{
+    width: 300px;
+    height: 35px;
+    padding-left : 15px;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 20px 0 0 20px;
+}
+
+.functionalityDiv{
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 14px;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+  }
+
+.selectBox{
+    width: 150px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    outline: none;
+    color: #333;
+    background-color: #fff;
+}
